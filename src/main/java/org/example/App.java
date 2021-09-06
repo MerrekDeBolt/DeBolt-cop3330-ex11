@@ -26,7 +26,6 @@ public class App {
 
         dollars = euros * exchangeRate;
 
-        System.out.println(String.format("%.2f", euros) + " euros at an exchange rate of " + exchangeRate + " is");
-        System.out.println(String.format("%.2f", dollars) + " U.S. dollars.");
+        System.out.println(String.format("%.2f", euros) + " euros at an exchange rate of " + exchangeRate + " is\n" + String.format("%.2f", dollars) + " U.S. dollars.");
     }
 }
